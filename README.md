@@ -1,7 +1,5 @@
-Primes
-======
-
-Primes up to n.
+Primes up to n
+==============
 
     n        | length  | seconds
     ---------+---------+---------
@@ -14,4 +12,4 @@ Primes up to n.
     10000000 |  664579 |  1.80
     80000000 | 4669382 | 12.82
 
-Runs out of memory for large enough n. 
+Runs out of memory for large enough n.
