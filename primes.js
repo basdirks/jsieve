@@ -1,4 +1,4 @@
-function sieve(n) {
+module.exports = function (n) {
     var i, j, k, m, s = {}, p = [2], z = Math.floor(Math.sqrt(n));
 
     for (i = 3; i < n; i += 2) {
