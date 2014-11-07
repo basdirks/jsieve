@@ -1,5 +1,6 @@
 var BitArray = require('bit-array');
 
+// Number -> [Number]
 function sieve (n) {
     var i, j, k, m, s = new BitArray(n + 1), p = [2], z = Math.floor(Math.sqrt(n));
 
