@@ -25,4 +25,4 @@ function sieve (n) {
     return p;
 }
 
-console.log(sieve(1e9).length);
+module.exports = sieve;
